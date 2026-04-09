@@ -12,9 +12,11 @@ hcde530/
 │       ├── python-coursework.mdc
 │       └── week2-project.mdc
 ├── HCDE530_week2_project/
+│   ├── app_review_word_count.py
 │   ├── dashboard.html
 │   ├── demo_responses.csv
-│   └── demo_word_count.py
+│   ├── demo_word_count.py
+│   └── week2.md
 └── README.md
 ```
 
