@@ -1,0 +1,15 @@
+---
+description: Python conventions for HCDE530 coursework scripts
+globs: **/*.py
+alwaysApply: false
+---
+
+# Python Coursework Conventions
+
+- Prefer simple, explicit logic over compact one-liners.
+- Keep functions small and single-purpose when practical.
+- Add docstrings for custom functions that do parsing, counting, or transformation.
+- Use `utf-8` encoding and `newline=""` for CSV file I/O.
+- Validate assumptions before summary stats (for example, avoid `min()`/`max()` on empty lists).
+- Print outputs in a readable format with clear labels.
+- Add comments only where intent is not obvious from the code.

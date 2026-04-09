@@ -1,0 +1,26 @@
+# HCDE530 Cursor Rules
+
+## Project Directory Structure
+
+Keep this structure section current whenever files or folders are added, renamed, or removed.
+
+```text
+hcde530/
+├── .cursor/
+│   └── rules/
+│       ├── project-standards.mdc
+│       ├── python-coursework.mdc
+│       └── week2-project.mdc
+├── HCDE530_week2_project/
+│   ├── dashboard.html
+│   ├── demo_responses.csv
+│   └── demo_word_count.py
+└── README.md
+```
+
+## Maintenance Rule
+
+- When making file changes, update the directory structure above in the same task.
+- Keep paths accurate and alphabetized within each folder.
+- Do not include `.git` internals in the tree.
+- Preserve beginner-friendly organization and avoid unnecessary folder churn.

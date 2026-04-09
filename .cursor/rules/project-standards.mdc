@@ -1,0 +1,19 @@
+---
+description: Core standards for HCDE530 coursework code and dashboards
+alwaysApply: true
+---
+
+# HCDE530 Project Standards
+
+- Keep changes focused and beginner-readable; prefer clear variable names over clever shortcuts.
+- Preserve existing file structure in `HCDE530_week2_project` unless a task explicitly asks for refactoring.
+- For Python scripts:
+  - Use small functions for reusable logic.
+  - Add brief docstrings for non-trivial functions.
+  - Handle file paths and encoding explicitly when reading data.
+- For HTML dashboards:
+  - Keep dashboards self-contained unless external libraries are requested.
+  - Include a short note on how to run locally (for example via `python3 -m http.server`).
+  - Sanitize user-visible text when injecting content into the DOM.
+- When summarizing analysis results, include at least one concise metric (count, min/max, or average).
+- Do not remove student-authored comments unless they are incorrect; improve clarity with minimal edits.

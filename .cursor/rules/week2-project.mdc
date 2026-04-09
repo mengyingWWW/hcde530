@@ -1,0 +1,19 @@
+---
+description: Week 2 conventions for CSV analysis and dashboard updates
+globs: HCDE530_week2_project/**/*
+alwaysApply: false
+---
+
+# Week 2 Project Rule
+
+- Keep edits inside `HCDE530_week2_project` unless explicitly asked otherwise.
+- Treat `demo_responses.csv` as the source of truth; do not rewrite CSV values unless requested.
+- For `demo_word_count.py`:
+  - Keep logic beginner-friendly and clearly commented.
+  - Use small helper functions for reusable text-processing tasks.
+  - Protect summary stats against empty datasets before using `min`, `max`, or averages.
+- For `dashboard.html`:
+  - Keep it runnable as a single local file with no build step.
+  - Prefer plain JavaScript and readable DOM code over framework-style abstractions.
+  - Escape/sanitize text before inserting it into HTML.
+- When making UI or analysis changes, preserve existing behavior unless the prompt asks for a redesign.
