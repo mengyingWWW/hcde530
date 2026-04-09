@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 2 Responses Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --accent: #2563eb;
+      --border: #e2e8f0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #111827;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #60a5fa;
+        --border: #1f2937;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    h1, h2, h3 { margin: 0 0 8px; }
+    .sub { color: var(--muted); margin-bottom: 20px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+    .metric {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 8px;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .bars {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 130px 1fr 40px;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+    .bar-wrap {
+      height: 10px;
+      background: color-mix(in oklab, var(--accent) 15%, transparent);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .bar {
+      height: 100%;
+      background: var(--accent);
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .tag {
+      font-size: 12px;
+      border: 1px solid var(--border);
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: color-mix(in oklab, var(--accent) 10%, transparent);
+    }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    input, select {
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px;
+      border-top: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    .empty { color: var(--muted); padding: 10px 0; }
+    code {
+      background: color-mix(in oklab, var(--accent) 10%, transparent);
+      padding: 2px 5px;
+      border-radius: 6px;
+    }
+    @media (max-width: 900px) {
+      .span-4, .span-6, .span-8 { grid-column: span 12; }
+      .bar-row { grid-template-columns: 100px 1fr 32px; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Week 2 Interview Responses Dashboard</h1>
+  <p class="sub">
+    Source: <code>demo_responses.csv</code>. If this page is opened as a local file and fails to load data,
+    run <code>python3 -m http.server</code> in this folder and open <code>http://localhost:8000/dashboard.html</code>.
+  </p>
+
+  <div class="grid">
+    <section class="card span-4">
+      <h3>Total Responses</h3>
+      <div id="totalResponses" class="metric">-</div>
+      <div class="small">Count of participant records</div>
+    </section>
+
+    <section class="card span-4">
+      <h3>Average Response Length</h3>
+      <div id="avgWords" class="metric">-</div>
+      <div class="small">Words per response</div>
+    </section>
+
+    <section class="card span-4">
+      <h3>Unique Roles</h3>
+      <div id="uniqueRoles" class="metric">-</div>
+      <div class="small">Distinct role labels in data</div>
+    </section>
+
+    <section class="card span-6">
+      <h3>Responses by Role</h3>
+      <div id="roleBars" class="bars"></div>
+    </section>
+
+    <section class="card span-6">
+      <h3>Top Keywords</h3>
+      <div id="keywordTags" class="tags"></div>
+      <p class="small">Common non-stopword terms from the response text</p>
+    </section>
+
+    <section class="card span-12">
+      <h3>Response Explorer</h3>
+      <div class="controls">
+        <input id="searchInput" type="search" placeholder="Search response text or participant id">
+        <select id="roleFilter">
+          <option value="">All roles</option>
+        </select>
+      </div>
+      <div id="tableContainer"></div>
+    </section>
+  </div>
+
+  <script>
+    const STOP_WORDS = new Set([
+      "a", "an", "and", "are", "as", "at", "be", "been", "being", "but", "by", "do", "does",
+      "for", "from", "had", "has", "have", "i", "if", "in", "into", "is", "it", "its", "just",
+      "me", "more", "most", "my", "not", "of", "on", "or", "our", "out", "so", "than", "that",
+      "the", "their", "them", "then", "there", "they", "this", "to", "up", "us", "very", "was",
+      "we", "what", "when", "where", "which", "with", "you", "your", "im", "ive", "dont", "its"
+    ]);
+
+    async function loadCsv(path) {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error("Failed to load CSV");
+      const text = await response.text();
+      return parseCsv(text);
+    }
+
+    function parseCsv(csvText) {
+      const lines = csvText.trim().split(/\r?\n/);
+      const rows = [];
+      let headers = [];
+
+      for (let i = 0; i < lines.length; i++) {
+        const cols = splitCsvLine(lines[i]);
+        if (i === 0) {
+          headers = cols;
+          continue;
+        }
+        const row = {};
+        headers.forEach((h, idx) => row[h] = cols[idx] || "");
+        rows.push(row);
+      }
+      return rows;
+    }
+
+    function splitCsvLine(line) {
+      const out = [];
+      let current = "";
+      let inQuotes = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        const next = line[i + 1];
+        if (ch === "\"" && inQuotes && next === "\"") {
+          current += "\"";
+          i++;
+          continue;
+        }
+        if (ch === "\"") {
+          inQuotes = !inQuotes;
+          continue;
+        }
+        if (ch === "," && !inQuotes) {
+          out.push(current);
+          current = "";
+          continue;
+        }
+        current += ch;
+      }
+      out.push(current);
+      return out;
+    }
+
+    function wordCount(text) {
+      const words = text.trim().toLowerCase().match(/[a-z0-9']+/g);
+      return words ? words.length : 0;
+    }
+
+    function countByRole(rows) {
+      const map = new Map();
+      rows.forEach(r => map.set(r.role, (map.get(r.role) || 0) + 1));
+      return [...map.entries()].sort((a, b) => b[1] - a[1]);
+    }
+
+    function topKeywords(rows, topN = 20) {
+      const freq = new Map();
+      rows.forEach(r => {
+        const words = (r.response || "").toLowerCase().match(/[a-z0-9']+/g) || [];
+        words.forEach(w => {
+          if (w.length < 3 || STOP_WORDS.has(w)) return;
+          freq.set(w, (freq.get(w) || 0) + 1);
+        });
+      });
+      return [...freq.entries()]
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .slice(0, topN);
+    }
+
+    function renderMetrics(rows, roleCounts) {
+      const total = rows.length;
+      const avg = total ? Math.round(rows.reduce((sum, r) => sum + wordCount(r.response), 0) / total) : 0;
+      document.getElementById("totalResponses").textContent = total.toString();
+      document.getElementById("avgWords").textContent = avg.toString();
+      document.getElementById("uniqueRoles").textContent = roleCounts.length.toString();
+    }
+
+    function renderRoleBars(roleCounts) {
+      const container = document.getElementById("roleBars");
+      const max = roleCounts[0]?.[1] || 1;
+      container.innerHTML = roleCounts.map(([role, count]) => `
+        <div class="bar-row">
+          <div>${escapeHtml(role)}</div>
+          <div class="bar-wrap"><div class="bar" style="width:${(count / max) * 100}%"></div></div>
+          <div>${count}</div>
+        </div>
+      `).join("");
+    }
+
+    function renderKeywords(keywords) {
+      const container = document.getElementById("keywordTags");
+      container.innerHTML = keywords.map(([word, count]) =>
+        `<span class="tag">${escapeHtml(word)} (${count})</span>`
+      ).join("");
+    }
+
+    function populateRoleFilter(roleCounts) {
+      const select = document.getElementById("roleFilter");
+      roleCounts.forEach(([role]) => {
+        const option = document.createElement("option");
+        option.value = role;
+        option.textContent = role;
+        select.appendChild(option);
+      });
+    }
+
+    function renderTable(rows) {
+      const container = document.getElementById("tableContainer");
+      if (!rows.length) {
+        container.innerHTML = `<div class="empty">No rows match the current filters.</div>`;
+        return;
+      }
+      const tableRows = rows.map(r => `
+        <tr>
+          <td>${escapeHtml(r.participant_id)}</td>
+          <td>${escapeHtml(r.role)}</td>
+          <td>${escapeHtml(r.response)}</td>
+        </tr>
+      `).join("");
+      container.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Participant</th>
+              <th>Role</th>
+              <th>Response</th>
+            </tr>
+          </thead>
+          <tbody>${tableRows}</tbody>
+        </table>
+      `;
+    }
+
+    function escapeHtml(value) {
+      return value
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll("\"", "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    function setupInteractions(allRows) {
+      const searchInput = document.getElementById("searchInput");
+      const roleFilter = document.getElementById("roleFilter");
+
+      function applyFilters() {
+        const query = searchInput.value.trim().toLowerCase();
+        const role = roleFilter.value;
+        const filtered = allRows.filter(r => {
+          const matchesRole = !role || r.role === role;
+          const haystack = `${r.participant_id} ${r.role} ${r.response}`.toLowerCase();
+          const matchesQuery = !query || haystack.includes(query);
+          return matchesRole && matchesQuery;
+        });
+        renderTable(filtered);
+      }
+
+      searchInput.addEventListener("input", applyFilters);
+      roleFilter.addEventListener("change", applyFilters);
+      applyFilters();
+    }
+
+    async function init() {
+      try {
+        const rows = await loadCsv("./demo_responses.csv");
+        const roleCounts = countByRole(rows);
+        const keywords = topKeywords(rows, 24);
+        renderMetrics(rows, roleCounts);
+        renderRoleBars(roleCounts);
+        renderKeywords(keywords);
+        populateRoleFilter(roleCounts);
+        setupInteractions(rows);
+      } catch (err) {
+        document.body.innerHTML = `
+          <h2>Could not load CSV data</h2>
+          <p>Make sure <code>demo_responses.csv</code> is in the same folder.</p>
+          <p>If opening via <code>file://</code>, serve this folder locally with
+          <code>python3 -m http.server</code> and open <code>http://localhost:8000/dashboard.html</code>.</p>
+        `;
+        console.error(err);
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
