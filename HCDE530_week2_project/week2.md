@@ -1,19 +1,13 @@
-# Week 2 — Competency claim
+# Week 2 — Competency Claim
 
-Short competency claims for HCDE 530 (Week 2). Each section is a few sentences tied to work in this repo.
+## What I built
 
-## Data handling and analysis
+I wrote a Python script (`demo_word_count.py`) that reads `demo_responses.csv` (participant id, role, and a short text response), counts words in each response, prints a neat row-by-row table in the terminal, and ends with summary stats (count, shortest, longest, and average word length).
 
-I practiced treating `demo_responses.csv` as structured input: opening it with an explicit path and UTF-8 encoding, reading rows with `csv.DictReader`, and turning free-text responses into a measurable quantity (word counts) I could scan in the terminal. Summarizing those counts gave me a simple way to compare response length across participants instead of only reading answers one at a time.
+## What I learned
 
-## Programming and implementation
+`csv.DictReader` was the piece that clicked for me: each row becomes a dictionary keyed by the header names, so I can pull `response` without remembering column indexes. I also got more comfortable breaking logic into a small function (`count_words`) and adding comments where the code alone would not remind me why something works the way it does. The terminal is still the part that felt the most confusing at first—running the script, checking paths, and trusting that the output I see matches the file I think I edited.
 
-I kept the Python script beginner-readable by using a small reusable function for counting words and printing a labeled, column-aligned table so output is easy to sanity-check. I also used Cursor prompts to move through the script step by step when I was unsure about the next change, which helped me connect syntax to intent without skipping the reasoning.
+## How this shows my competency
 
-## Code literacy and documentation
-
-I asked for inline comments where the intent is not obvious from the code alone (for example, how `DictReader` maps headers to keys), because comments anchor my memory when I reopen the file later. I also skimmed project-level Cursor rules so I could align with expectations that apply across the whole repo, not only in one script.
-
-## Reflection (where I felt friction)
-
-The terminal still took the most mental energy this week—knowing what to type, whether a command “worked,” and how that connects to the files on disk. Naming that friction matters to me because it tells me what to practice next so the technical workflow feels less like a barrier to the analysis itself.
+This week’s work connects directly to working with data in a plain, reproducible way (structured CSV in, summarized numbers out) instead of only skimming the spreadsheet by eye. I used Cursor as a pair-programming aid for small steps and explanations, while still reading and owning the Python so I understand what runs. Together with writing and reading code (functions, loops, formatted printing) and keeping the project in Github repository, the script is a concrete artifact I can point to that shows I can load a dataset, transform it, and communicate what I found.
