@@ -1,30 +1,19 @@
-# Week 2 — Competency 2: Code literacy and documentation
+# Week 2 — Competency claim
 
-Personal notes for HCDE 530. Written from interview answers (Week 2).
+Short competency claims for HCDE 530 (Week 2). Each section is a few sentences tied to work in this repo.
 
-## What I did this week (evidence)
+## Data handling and analysis
 
-- Used **prompts in Cursor** to help complete coding tasks step by step.
-- Asked Cursor to **add inline comments** to my Python so the script is easier to re-read later.
-- Asked Cursor to **summarize Cursor rules** so I could understand **general expectations** that apply across the project, not just one file.
+I practiced treating `demo_responses.csv` as structured input: opening it with an explicit path and UTF-8 encoding, reading rows with `csv.DictReader`, and turning free-text responses into a measurable quantity (word counts) I could scan in the terminal. Summarizing those counts gave me a simple way to compare response length across participants instead of only reading answers one at a time.
 
-## What “reading a CSV” means to me now
+## Programming and implementation
 
-- Open a file at a **specific path**, then **read it row by row** so the program can process each record.
+I kept the Python script beginner-readable by using a small reusable function for counting words and printing a labeled, column-aligned table so output is easy to sanity-check. I also used Cursor prompts to move through the script step by step when I was unsure about the next change, which helped me connect syntax to intent without skipping the reasoning.
 
-## Why documentation matters to me (inline comments)
+## Code literacy and documentation
 
-- **Future me:** comments remind me what each part of the code is doing when I open the file again later.
-- **Learning:** writing and reading comments helps me **solidify Python concepts** as I go.
+I asked for inline comments where the intent is not obvious from the code alone (for example, how `DictReader` maps headers to keys), because comments anchor my memory when I reopen the file later. I also skimmed project-level Cursor rules so I could align with expectations that apply across the whole repo, not only in one script.
 
-## Cursor rules (how I’m using them)
+## Reflection (where I felt friction)
 
-- I wanted a **short orientation** to rules that feel like they apply **everywhere in the repo**, so I do not have to re-derive expectations file by file.
-
-## Friction / where I spent mental energy
-
-- The **terminal** felt like the hardest or most confusing part of the workflow this week (commands, environment, or “did that work?” moments).
-
-## Competency 2 — one-sentence takeaway
-
-Code literacy for me this week was not only running scripts, but also **pairing code with explanation** (comments + project rules) so my work stays understandable when I return to it.
+The terminal still took the most mental energy this week—knowing what to type, whether a command “worked,” and how that connects to the files on disk. Naming that friction matters to me because it tells me what to practice next so the technical workflow feels less like a barrier to the analysis itself.
