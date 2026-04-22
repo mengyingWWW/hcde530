@@ -13,10 +13,15 @@ hcde530/
 │       └── week2-project.mdc
 ├── HCDE530_week2_project/
 │   ├── app_review_word_count.py
+│   ├── clean_demo_responses.py
 │   ├── dashboard.html
 │   ├── demo_responses.csv
 │   ├── demo_word_count.py
 │   └── week2.md
+├── HCDE530_week3_project/
+│   ├── week3_analysis_buggy.py
+│   ├── week3_survey_cleaned.csv
+│   └── week3_survey_messy.csv
 └── README.md
 ```
 
