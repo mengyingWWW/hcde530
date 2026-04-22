@@ -1,0 +1,68 @@
+import csv
+
+# Load the survey data from a CSV file
+filename = "week3_survey_messy.csv"
+cleaned_filename = "week3_survey_cleaned.csv"
+rows = []
+cleaned_rows = []
+
+with open(filename, newline="", encoding="utf-8") as f:
+    reader = csv.DictReader(f)
+    fieldnames = reader.fieldnames
+    for row in reader:
+        # Normalize role labels and remove blank roles.
+        row["role"] = row["role"].strip().title()
+        if not row["role"]:
+            row["role"] = "Unknown"
+
+        # Handle messy values such as "fifteen" before int conversion later.
+        experience_value = row["experience_years"].strip().lower()
+        if experience_value == "fifteen":
+            row["experience_years"] = "15"
+
+        rows.append(row)
+        cleaned_rows.append(row)
+
+# Count responses by role
+# Normalize role names so "ux researcher" and "UX Researcher" are counted together
+role_counts = {}
+
+for row in rows:
+    role = row["role"]
+    if role in role_counts:
+        role_counts[role] += 1
+    else:
+        role_counts[role] = 1
+
+print("Responses by role:")
+for role, count in sorted(role_counts.items()):
+    print(f"  {role}: {count}")
+
+# Calculate the average years of experience
+total_experience = 0
+for row in rows:
+    total_experience += int(row["experience_years"])
+
+avg_experience = total_experience / len(rows)
+print(f"\nAverage years of experience: {avg_experience:.1f}")
+
+# Find the top 5 highest satisfaction scores
+scored_rows = []
+for row in rows:
+    if row["satisfaction_score"].strip():
+        scored_rows.append((row["participant_name"], int(row["satisfaction_score"])))
+
+scored_rows.sort(key=lambda x: x[1])
+top5 = scored_rows[:5]
+
+print("\nTop 5 satisfaction scores:")
+for name, score in top5:
+    print(f"  {name}: {score}")
+
+# Save cleaned rows so the script produces a cleaned output file.
+with open(cleaned_filename, "w", newline="", encoding="utf-8") as out_f:
+    writer = csv.DictWriter(out_f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(cleaned_rows)
+
+print(f"\nCleaned file written: {cleaned_filename}")
