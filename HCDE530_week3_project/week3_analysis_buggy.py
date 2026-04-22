@@ -9,13 +9,14 @@ cleaned_rows = []
 with open(filename, newline="", encoding="utf-8") as f:
     reader = csv.DictReader(f)
     fieldnames = reader.fieldnames
+    # This loop visits each survey row, cleans key fields, and stores cleaned rows.
     for row in reader:
-        # Normalize role labels and remove blank roles.
+        # Clean role text so different capitalization is counted as one role value.
         row["role"] = row["role"].strip().title()
         if not row["role"]:
             row["role"] = "Unknown"
 
-        # Handle messy values such as "fifteen" before int conversion later.
+        # Clean experience_years so later int() math does not crash on text values.
         experience_value = row["experience_years"].strip().lower()
         if experience_value == "fifteen":
             row["experience_years"] = "15"
@@ -62,7 +63,9 @@ for name, score in top5:
 # Save cleaned rows so the script produces a cleaned output file.
 with open(cleaned_filename, "w", newline="", encoding="utf-8") as out_f:
     writer = csv.DictWriter(out_f, fieldnames=fieldnames)
+    # Write the same CSV header columns to the cleaned output file.
     writer.writeheader()
+    # Write all cleaned rows (normalized role and fixed experience values).
     writer.writerows(cleaned_rows)
 
 print(f"\nCleaned file written: {cleaned_filename}")
