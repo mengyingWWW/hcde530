@@ -24,7 +24,11 @@ hcde530/
 │   ├── week3_survey_cleaned.csv
 │   └── week3_survey_messy.csv
 ├── HCDE530_week4_project/
-│   └── week4_api_category_votes.py
+│   ├── week4.md
+│   ├── week4_api_category_votes.py
+│   ├── week4_category_helpful_votes.csv
+│   ├── week4_pokeapi.py
+│   └── week4_pokemon_data.csv
 └── README.md
 ```
 

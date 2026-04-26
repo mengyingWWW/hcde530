@@ -1,0 +1,1351 @@
+name,types,height,weight,base_experience
+bulbasaur,"grass, poison",7,69,64
+ivysaur,"grass, poison",10,130,142
+venusaur,"grass, poison",20,1000,236
+charmander,fire,6,85,62
+charmeleon,fire,11,190,142
+charizard,"fire, flying",17,905,240
+squirtle,water,5,90,63
+wartortle,water,10,225,142
+blastoise,water,16,855,239
+caterpie,bug,3,29,39
+metapod,bug,7,99,72
+butterfree,"bug, flying",11,320,178
+weedle,"bug, poison",3,32,39
+kakuna,"bug, poison",6,100,72
+beedrill,"bug, poison",10,295,178
+pidgey,"normal, flying",3,18,50
+pidgeotto,"normal, flying",11,300,122
+pidgeot,"normal, flying",15,395,216
+rattata,normal,3,35,51
+raticate,normal,7,185,145
+spearow,"normal, flying",3,20,52
+fearow,"normal, flying",12,380,155
+ekans,poison,20,69,58
+arbok,poison,35,650,157
+pikachu,electric,4,60,112
+raichu,electric,8,300,218
+sandshrew,ground,6,120,60
+sandslash,ground,10,295,158
+nidoran-f,poison,4,70,55
+nidorina,poison,8,200,128
+nidoqueen,"poison, ground",13,600,227
+nidoran-m,poison,5,90,55
+nidorino,poison,9,195,128
+nidoking,"poison, ground",14,620,227
+clefairy,fairy,6,75,113
+clefable,fairy,13,400,217
+vulpix,fire,6,99,60
+ninetales,fire,11,199,177
+jigglypuff,"normal, fairy",5,55,95
+wigglytuff,"normal, fairy",10,120,196
+zubat,"poison, flying",8,75,49
+golbat,"poison, flying",16,550,159
+oddish,"grass, poison",5,54,64
+gloom,"grass, poison",8,86,138
+vileplume,"grass, poison",12,186,221
+paras,"bug, grass",3,54,57
+parasect,"bug, grass",10,295,142
+venonat,"bug, poison",10,300,61
+venomoth,"bug, poison",15,125,158
+diglett,ground,2,8,53
+dugtrio,ground,7,333,149
+meowth,normal,4,42,58
+persian,normal,10,320,154
+psyduck,water,8,196,64
+golduck,water,17,766,175
+mankey,fighting,5,280,61
+primeape,fighting,10,320,159
+growlithe,fire,7,190,70
+arcanine,fire,19,1550,194
+poliwag,water,6,124,60
+poliwhirl,water,10,200,135
+poliwrath,"water, fighting",13,540,230
+abra,psychic,9,195,62
+kadabra,psychic,13,565,140
+alakazam,psychic,15,480,225
+machop,fighting,8,195,61
+machoke,fighting,15,705,142
+machamp,fighting,16,1300,227
+bellsprout,"grass, poison",7,40,60
+weepinbell,"grass, poison",10,64,137
+victreebel,"grass, poison",17,155,221
+tentacool,"water, poison",9,455,67
+tentacruel,"water, poison",16,550,180
+geodude,"rock, ground",4,200,60
+graveler,"rock, ground",10,1050,137
+golem,"rock, ground",14,3000,223
+ponyta,fire,10,300,82
+rapidash,fire,17,950,175
+slowpoke,"water, psychic",12,360,63
+slowbro,"water, psychic",16,785,172
+magnemite,"electric, steel",3,60,65
+magneton,"electric, steel",10,600,163
+farfetchd,"normal, flying",8,150,132
+doduo,"normal, flying",14,392,62
+dodrio,"normal, flying",18,852,165
+seel,water,11,900,65
+dewgong,"water, ice",17,1200,166
+grimer,poison,9,300,65
+muk,poison,12,300,175
+shellder,water,3,40,61
+cloyster,"water, ice",15,1325,184
+gastly,"ghost, poison",13,1,62
+haunter,"ghost, poison",16,1,142
+gengar,"ghost, poison",15,405,225
+onix,"rock, ground",88,2100,77
+drowzee,psychic,10,324,66
+hypno,psychic,16,756,169
+krabby,water,4,65,65
+kingler,water,13,600,166
+voltorb,electric,5,104,66
+electrode,electric,12,666,172
+exeggcute,"grass, psychic",4,25,65
+exeggutor,"grass, psychic",20,1200,186
+cubone,ground,4,65,64
+marowak,ground,10,450,149
+hitmonlee,fighting,15,498,159
+hitmonchan,fighting,14,502,159
+lickitung,normal,12,655,77
+koffing,poison,6,10,68
+weezing,poison,12,95,172
+rhyhorn,"ground, rock",10,1150,69
+rhydon,"ground, rock",19,1200,170
+chansey,normal,11,346,395
+tangela,grass,10,350,87
+kangaskhan,normal,22,800,172
+horsea,water,4,80,59
+seadra,water,12,250,154
+goldeen,water,6,150,64
+seaking,water,13,390,158
+staryu,water,8,345,68
+starmie,"water, psychic",11,800,182
+mr-mime,"psychic, fairy",13,545,161
+scyther,"bug, flying",15,560,100
+jynx,"ice, psychic",14,406,159
+electabuzz,electric,11,300,172
+magmar,fire,13,445,173
+pinsir,bug,15,550,175
+tauros,normal,14,884,172
+magikarp,water,9,100,40
+gyarados,"water, flying",65,2350,189
+lapras,"water, ice",25,2200,187
+ditto,normal,3,40,101
+eevee,normal,3,65,65
+vaporeon,water,10,290,184
+jolteon,electric,8,245,184
+flareon,fire,9,250,184
+porygon,normal,8,365,79
+omanyte,"rock, water",4,75,71
+omastar,"rock, water",10,350,173
+kabuto,"rock, water",5,115,71
+kabutops,"rock, water",13,405,173
+aerodactyl,"rock, flying",18,590,180
+snorlax,normal,21,4600,189
+articuno,"ice, flying",17,554,261
+zapdos,"electric, flying",16,526,261
+moltres,"fire, flying",20,600,261
+dratini,dragon,18,33,60
+dragonair,dragon,40,165,147
+dragonite,"dragon, flying",22,2100,270
+mewtwo,psychic,20,1220,306
+mew,psychic,4,40,270
+chikorita,grass,9,64,64
+bayleef,grass,12,158,142
+meganium,grass,18,1005,236
+cyndaquil,fire,5,79,62
+quilava,fire,9,190,142
+typhlosion,fire,17,795,240
+totodile,water,6,95,63
+croconaw,water,11,250,142
+feraligatr,water,23,888,239
+sentret,normal,8,60,43
+furret,normal,18,325,145
+hoothoot,"normal, flying",7,212,52
+noctowl,"normal, flying",16,408,158
+ledyba,"bug, flying",10,108,53
+ledian,"bug, flying",14,356,137
+spinarak,"bug, poison",5,85,50
+ariados,"bug, poison",11,335,140
+crobat,"poison, flying",18,750,241
+chinchou,"water, electric",5,120,66
+lanturn,"water, electric",12,225,161
+pichu,electric,3,20,41
+cleffa,fairy,3,30,44
+igglybuff,"normal, fairy",3,10,42
+togepi,fairy,3,15,49
+togetic,"fairy, flying",6,32,142
+natu,"psychic, flying",2,20,64
+xatu,"psychic, flying",15,150,165
+mareep,electric,6,78,56
+flaaffy,electric,8,133,128
+ampharos,electric,14,615,230
+bellossom,grass,4,58,221
+marill,"water, fairy",4,85,88
+azumarill,"water, fairy",8,285,189
+sudowoodo,rock,12,380,144
+politoed,water,11,339,225
+hoppip,"grass, flying",4,5,50
+skiploom,"grass, flying",6,10,119
+jumpluff,"grass, flying",8,30,207
+aipom,normal,8,115,72
+sunkern,grass,3,18,36
+sunflora,grass,8,85,149
+yanma,"bug, flying",12,380,78
+wooper,"water, ground",4,85,42
+quagsire,"water, ground",14,750,151
+espeon,psychic,9,265,184
+umbreon,dark,10,270,184
+murkrow,"dark, flying",5,21,81
+slowking,"water, psychic",20,795,172
+misdreavus,ghost,7,10,87
+unown,psychic,5,50,118
+wobbuffet,psychic,13,285,142
+girafarig,"normal, psychic",15,415,159
+pineco,bug,6,72,58
+forretress,"bug, steel",12,1258,163
+dunsparce,normal,15,140,145
+gligar,"ground, flying",11,648,86
+steelix,"steel, ground",92,4000,179
+snubbull,fairy,6,78,60
+granbull,fairy,14,487,158
+qwilfish,"water, poison",5,39,88
+scizor,"bug, steel",18,1180,175
+shuckle,"bug, rock",6,205,177
+heracross,"bug, fighting",15,540,175
+sneasel,"dark, ice",9,280,86
+teddiursa,normal,6,88,66
+ursaring,normal,18,1258,175
+slugma,fire,7,350,50
+magcargo,"fire, rock",8,550,151
+swinub,"ice, ground",4,65,50
+piloswine,"ice, ground",11,558,158
+corsola,"water, rock",6,50,144
+remoraid,water,6,120,60
+octillery,water,9,285,168
+delibird,"ice, flying",9,160,116
+mantine,"water, flying",21,2200,170
+skarmory,"steel, flying",17,505,163
+houndour,"dark, fire",6,108,66
+houndoom,"dark, fire",14,350,175
+kingdra,"water, dragon",18,1520,243
+phanpy,ground,5,335,66
+donphan,ground,11,1200,175
+porygon2,normal,6,325,180
+stantler,normal,14,712,163
+smeargle,normal,12,580,88
+tyrogue,fighting,7,210,42
+hitmontop,fighting,14,480,159
+smoochum,"ice, psychic",4,60,61
+elekid,electric,6,235,72
+magby,fire,7,214,73
+miltank,normal,12,755,172
+blissey,normal,15,468,608
+raikou,electric,19,1780,261
+entei,fire,21,1980,261
+suicune,water,20,1870,261
+larvitar,"rock, ground",6,720,60
+pupitar,"rock, ground",12,1520,144
+tyranitar,"rock, dark",20,2020,270
+lugia,"psychic, flying",52,2160,306
+ho-oh,"fire, flying",38,1990,306
+celebi,"psychic, grass",6,50,270
+treecko,grass,5,50,62
+grovyle,grass,9,216,142
+sceptile,grass,17,522,239
+torchic,fire,4,25,62
+combusken,"fire, fighting",9,195,142
+blaziken,"fire, fighting",19,520,239
+mudkip,water,4,76,62
+marshtomp,"water, ground",7,280,142
+swampert,"water, ground",15,819,241
+poochyena,dark,5,136,56
+mightyena,dark,10,370,147
+zigzagoon,normal,4,175,56
+linoone,normal,5,325,147
+wurmple,bug,3,36,56
+silcoon,bug,6,100,72
+beautifly,"bug, flying",10,284,178
+cascoon,bug,7,115,72
+dustox,"bug, poison",12,316,173
+lotad,"water, grass",5,26,44
+lombre,"water, grass",12,325,119
+ludicolo,"water, grass",15,550,216
+seedot,grass,5,40,44
+nuzleaf,"grass, dark",10,280,119
+shiftry,"grass, dark",13,596,216
+taillow,"normal, flying",3,23,54
+swellow,"normal, flying",7,198,159
+wingull,"water, flying",6,95,54
+pelipper,"water, flying",12,280,154
+ralts,"psychic, fairy",4,66,40
+kirlia,"psychic, fairy",8,202,97
+gardevoir,"psychic, fairy",16,484,233
+surskit,"bug, water",5,17,54
+masquerain,"bug, flying",8,36,159
+shroomish,grass,4,45,59
+breloom,"grass, fighting",12,392,161
+slakoth,normal,8,240,56
+vigoroth,normal,14,465,154
+slaking,normal,20,1305,252
+nincada,"bug, ground",5,55,53
+ninjask,"bug, flying",8,120,160
+shedinja,"bug, ghost",8,12,83
+whismur,normal,6,163,48
+loudred,normal,10,405,126
+exploud,normal,15,840,221
+makuhita,fighting,10,864,47
+hariyama,fighting,23,2538,166
+azurill,"normal, fairy",2,20,38
+nosepass,rock,10,970,75
+skitty,normal,6,110,52
+delcatty,normal,11,326,140
+sableye,"dark, ghost",5,110,133
+mawile,"steel, fairy",6,115,133
+aron,"steel, rock",4,600,66
+lairon,"steel, rock",9,1200,151
+aggron,"steel, rock",21,3600,239
+meditite,"fighting, psychic",6,112,56
+medicham,"fighting, psychic",13,315,144
+electrike,electric,6,152,59
+manectric,electric,15,402,166
+plusle,electric,4,42,142
+minun,electric,4,42,142
+volbeat,bug,7,177,151
+illumise,bug,6,177,151
+roselia,"grass, poison",3,20,140
+gulpin,poison,4,103,60
+swalot,poison,17,800,163
+carvanha,"water, dark",8,208,61
+sharpedo,"water, dark",18,888,161
+wailmer,water,20,1300,80
+wailord,water,145,3980,175
+numel,"fire, ground",7,240,61
+camerupt,"fire, ground",19,2200,161
+torkoal,fire,5,804,165
+spoink,psychic,7,306,66
+grumpig,psychic,9,715,165
+spinda,normal,11,50,126
+trapinch,ground,7,150,58
+vibrava,"ground, dragon",11,153,119
+flygon,"ground, dragon",20,820,234
+cacnea,grass,4,513,67
+cacturne,"grass, dark",13,774,166
+swablu,"normal, flying",4,12,62
+altaria,"dragon, flying",11,206,172
+zangoose,normal,13,403,160
+seviper,poison,27,525,160
+lunatone,"rock, psychic",10,1680,161
+solrock,"rock, psychic",12,1540,161
+barboach,"water, ground",4,19,58
+whiscash,"water, ground",9,236,164
+corphish,water,6,115,62
+crawdaunt,"water, dark",11,328,164
+baltoy,"ground, psychic",5,215,60
+claydol,"ground, psychic",15,1080,175
+lileep,"rock, grass",10,238,71
+cradily,"rock, grass",15,604,173
+anorith,"rock, bug",7,125,71
+armaldo,"rock, bug",15,682,173
+feebas,water,6,74,40
+milotic,water,62,1620,189
+castform,normal,3,8,147
+kecleon,normal,10,220,154
+shuppet,ghost,6,23,59
+banette,ghost,11,125,159
+duskull,ghost,8,150,59
+dusclops,ghost,16,306,159
+tropius,"grass, flying",20,1000,161
+chimecho,psychic,6,10,159
+absol,dark,12,470,163
+wynaut,psychic,6,140,52
+snorunt,ice,7,168,60
+glalie,ice,15,2565,168
+spheal,"ice, water",8,395,58
+sealeo,"ice, water",11,876,144
+walrein,"ice, water",14,1506,239
+clamperl,water,4,525,69
+huntail,water,17,270,170
+gorebyss,water,18,226,170
+relicanth,"water, rock",10,234,170
+luvdisc,water,6,87,116
+bagon,dragon,6,421,60
+shelgon,dragon,11,1105,147
+salamence,"dragon, flying",15,1026,270
+beldum,"steel, psychic",6,952,60
+metang,"steel, psychic",12,2025,147
+metagross,"steel, psychic",16,5500,270
+regirock,rock,17,2300,261
+regice,ice,18,1750,261
+registeel,steel,19,2050,261
+latias,"dragon, psychic",14,400,270
+latios,"dragon, psychic",20,600,270
+kyogre,water,45,3520,302
+groudon,ground,35,9500,302
+rayquaza,"dragon, flying",70,2065,306
+jirachi,"steel, psychic",3,11,270
+deoxys-normal,psychic,17,608,270
+turtwig,grass,4,102,64
+grotle,grass,11,970,142
+torterra,"grass, ground",22,3100,236
+chimchar,fire,5,62,62
+monferno,"fire, fighting",9,220,142
+infernape,"fire, fighting",12,550,240
+piplup,water,4,52,63
+prinplup,water,8,230,142
+empoleon,"water, steel",17,845,239
+starly,"normal, flying",3,20,49
+staravia,"normal, flying",6,155,119
+staraptor,"normal, flying",12,249,218
+bidoof,normal,5,200,50
+bibarel,"normal, water",10,315,144
+kricketot,bug,3,22,39
+kricketune,bug,10,255,134
+shinx,electric,5,95,53
+luxio,electric,9,305,127
+luxray,electric,14,420,235
+budew,"grass, poison",2,12,56
+roserade,"grass, poison",9,145,232
+cranidos,rock,9,315,70
+rampardos,rock,16,1025,173
+shieldon,"rock, steel",5,570,70
+bastiodon,"rock, steel",13,1495,173
+burmy,bug,2,34,45
+wormadam-plant,"bug, grass",5,65,148
+mothim,"bug, flying",9,233,148
+combee,"bug, flying",3,55,49
+vespiquen,"bug, flying",12,385,166
+pachirisu,electric,4,39,142
+buizel,water,7,295,66
+floatzel,water,11,335,173
+cherubi,grass,4,33,55
+cherrim,grass,5,93,158
+shellos,water,3,63,65
+gastrodon,"water, ground",9,299,166
+ambipom,normal,12,203,169
+drifloon,"ghost, flying",4,12,70
+drifblim,"ghost, flying",12,150,174
+buneary,normal,4,55,70
+lopunny,normal,12,333,168
+mismagius,ghost,9,44,173
+honchkrow,"dark, flying",9,273,177
+glameow,normal,5,39,62
+purugly,normal,10,438,158
+chingling,psychic,2,6,57
+stunky,"poison, dark",4,192,66
+skuntank,"poison, dark",10,380,168
+bronzor,"steel, psychic",5,605,60
+bronzong,"steel, psychic",13,1870,175
+bonsly,rock,5,150,58
+mime-jr,"psychic, fairy",6,130,62
+happiny,normal,6,244,110
+chatot,"normal, flying",5,19,144
+spiritomb,"ghost, dark",10,1080,170
+gible,"dragon, ground",7,205,60
+gabite,"dragon, ground",14,560,144
+garchomp,"dragon, ground",19,950,270
+munchlax,normal,6,1050,78
+riolu,fighting,7,202,57
+lucario,"fighting, steel",12,540,184
+hippopotas,ground,8,495,66
+hippowdon,ground,20,3000,184
+skorupi,"poison, bug",8,120,66
+drapion,"poison, dark",13,615,175
+croagunk,"poison, fighting",7,230,60
+toxicroak,"poison, fighting",13,444,172
+carnivine,grass,14,270,159
+finneon,water,4,70,66
+lumineon,water,12,240,161
+mantyke,"water, flying",10,650,69
+snover,"grass, ice",10,505,67
+abomasnow,"grass, ice",22,1355,173
+weavile,"dark, ice",11,340,179
+magnezone,"electric, steel",12,1800,241
+lickilicky,normal,17,1400,180
+rhyperior,"ground, rock",24,2828,241
+tangrowth,grass,20,1286,187
+electivire,electric,18,1386,243
+magmortar,fire,16,680,243
+togekiss,"fairy, flying",15,380,245
+yanmega,"bug, flying",19,515,180
+leafeon,grass,10,255,184
+glaceon,ice,8,259,184
+gliscor,"ground, flying",20,425,179
+mamoswine,"ice, ground",25,2910,239
+porygon-z,normal,9,340,241
+gallade,"psychic, fighting",16,520,233
+probopass,"rock, steel",14,3400,184
+dusknoir,ghost,22,1066,236
+froslass,"ice, ghost",13,266,168
+rotom,"electric, ghost",3,3,154
+uxie,psychic,3,3,261
+mesprit,psychic,3,3,261
+azelf,psychic,3,3,261
+dialga,"steel, dragon",54,6830,306
+palkia,"water, dragon",42,3360,306
+heatran,"fire, steel",17,4300,270
+regigigas,normal,37,4200,302
+giratina-altered,"ghost, dragon",45,7500,306
+cresselia,psychic,15,856,270
+phione,water,4,31,216
+manaphy,water,3,14,270
+darkrai,dark,15,505,270
+shaymin-land,grass,2,21,270
+arceus,normal,32,3200,324
+victini,"psychic, fire",4,40,270
+snivy,grass,6,81,62
+servine,grass,8,160,145
+serperior,grass,33,630,238
+tepig,fire,5,99,62
+pignite,"fire, fighting",10,555,146
+emboar,"fire, fighting",16,1500,238
+oshawott,water,5,59,62
+dewott,water,8,245,145
+samurott,water,15,946,238
+patrat,normal,5,116,51
+watchog,normal,11,270,147
+lillipup,normal,4,41,55
+herdier,normal,9,147,130
+stoutland,normal,12,610,225
+purrloin,dark,4,101,56
+liepard,dark,11,375,156
+pansage,grass,6,105,63
+simisage,grass,11,305,174
+pansear,fire,6,110,63
+simisear,fire,10,280,174
+panpour,water,6,135,63
+simipour,water,10,290,174
+munna,psychic,6,233,58
+musharna,psychic,11,605,170
+pidove,"normal, flying",3,21,53
+tranquill,"normal, flying",6,150,125
+unfezant,"normal, flying",12,290,220
+blitzle,electric,8,298,59
+zebstrika,electric,16,795,174
+roggenrola,rock,4,180,56
+boldore,rock,9,1020,137
+gigalith,rock,17,2600,232
+woobat,"psychic, flying",4,21,65
+swoobat,"psychic, flying",9,105,149
+drilbur,ground,3,85,66
+excadrill,"ground, steel",7,404,178
+audino,normal,11,310,390
+timburr,fighting,6,125,61
+gurdurr,fighting,12,400,142
+conkeldurr,fighting,14,870,227
+tympole,water,5,45,59
+palpitoad,"water, ground",8,170,134
+seismitoad,"water, ground",15,620,229
+throh,fighting,13,555,163
+sawk,fighting,14,510,163
+sewaddle,"bug, grass",3,25,62
+swadloon,"bug, grass",5,73,133
+leavanny,"bug, grass",12,205,225
+venipede,"bug, poison",4,53,52
+whirlipede,"bug, poison",12,585,126
+scolipede,"bug, poison",25,2005,218
+cottonee,"grass, fairy",3,6,56
+whimsicott,"grass, fairy",7,66,168
+petilil,grass,5,66,56
+lilligant,grass,11,163,168
+basculin-red-striped,water,10,180,161
+sandile,"ground, dark",7,152,58
+krokorok,"ground, dark",10,334,123
+krookodile,"ground, dark",15,963,234
+darumaka,fire,6,375,63
+darmanitan-standard,fire,13,929,168
+maractus,grass,10,280,161
+dwebble,"bug, rock",3,145,65
+crustle,"bug, rock",14,2000,170
+scraggy,"dark, fighting",6,118,70
+scrafty,"dark, fighting",11,300,171
+sigilyph,"psychic, flying",14,140,172
+yamask,ghost,5,15,61
+cofagrigus,ghost,17,765,169
+tirtouga,"water, rock",7,165,71
+carracosta,"water, rock",12,810,173
+archen,"rock, flying",5,95,71
+archeops,"rock, flying",14,320,177
+trubbish,poison,6,310,66
+garbodor,poison,19,1073,166
+zorua,dark,7,125,66
+zoroark,dark,16,811,179
+minccino,normal,4,58,60
+cinccino,normal,5,75,165
+gothita,psychic,4,58,58
+gothorita,psychic,7,180,137
+gothitelle,psychic,15,440,221
+solosis,psychic,3,10,58
+duosion,psychic,6,80,130
+reuniclus,psychic,10,201,221
+ducklett,"water, flying",5,55,61
+swanna,"water, flying",13,242,166
+vanillite,ice,4,57,61
+vanillish,ice,11,410,138
+vanilluxe,ice,13,575,241
+deerling,"normal, grass",6,195,67
+sawsbuck,"normal, grass",19,925,166
+emolga,"electric, flying",4,50,150
+karrablast,bug,5,59,63
+escavalier,"bug, steel",10,330,173
+foongus,"grass, poison",2,10,59
+amoonguss,"grass, poison",6,105,162
+frillish-male,"water, ghost",12,330,67
+jellicent-male,"water, ghost",22,1350,168
+alomomola,water,12,316,165
+joltik,"bug, electric",1,6,64
+galvantula,"bug, electric",8,143,165
+ferroseed,"grass, steel",6,188,61
+ferrothorn,"grass, steel",10,1100,171
+klink,steel,3,210,60
+klang,steel,6,510,154
+klinklang,steel,6,810,234
+tynamo,electric,2,3,55
+eelektrik,electric,12,220,142
+eelektross,electric,21,805,232
+elgyem,psychic,5,90,67
+beheeyem,psychic,10,345,170
+litwick,"ghost, fire",3,31,55
+lampent,"ghost, fire",6,130,130
+chandelure,"ghost, fire",10,343,234
+axew,dragon,6,180,64
+fraxure,dragon,10,360,144
+haxorus,dragon,18,1055,243
+cubchoo,ice,5,85,61
+beartic,ice,26,2600,177
+cryogonal,ice,11,1480,180
+shelmet,bug,4,77,61
+accelgor,bug,8,253,173
+stunfisk,"ground, electric",7,110,165
+mienfoo,fighting,9,200,70
+mienshao,fighting,14,355,179
+druddigon,dragon,16,1390,170
+golett,"ground, ghost",10,920,61
+golurk,"ground, ghost",28,3300,169
+pawniard,"dark, steel",5,102,68
+bisharp,"dark, steel",16,700,172
+bouffalant,normal,16,946,172
+rufflet,"normal, flying",5,105,70
+braviary,"normal, flying",15,410,179
+vullaby,"dark, flying",5,90,74
+mandibuzz,"dark, flying",12,395,179
+heatmor,fire,14,580,169
+durant,"bug, steel",3,330,169
+deino,"dark, dragon",8,173,60
+zweilous,"dark, dragon",14,500,147
+hydreigon,"dark, dragon",18,1600,270
+larvesta,"bug, fire",11,288,72
+volcarona,"bug, fire",16,460,248
+cobalion,"steel, fighting",21,2500,261
+terrakion,"rock, fighting",19,2600,261
+virizion,"grass, fighting",20,2000,261
+tornadus-incarnate,flying,15,630,261
+thundurus-incarnate,"electric, flying",15,610,261
+reshiram,"dragon, fire",32,3300,306
+zekrom,"dragon, electric",29,3450,306
+landorus-incarnate,"ground, flying",15,680,270
+kyurem,"dragon, ice",30,3250,297
+keldeo-ordinary,"water, fighting",14,485,261
+meloetta-aria,"normal, psychic",6,65,270
+genesect,"bug, steel",15,825,270
+chespin,grass,4,90,63
+quilladin,grass,7,290,142
+chesnaught,"grass, fighting",16,900,239
+fennekin,fire,4,94,61
+braixen,fire,10,145,143
+delphox,"fire, psychic",15,390,240
+froakie,water,3,70,63
+frogadier,water,6,109,142
+greninja,"water, dark",15,400,239
+bunnelby,normal,4,50,47
+diggersby,"normal, ground",10,424,148
+fletchling,"normal, flying",3,17,56
+fletchinder,"fire, flying",7,160,134
+talonflame,"fire, flying",12,245,175
+scatterbug,bug,3,25,40
+spewpa,bug,3,84,75
+vivillon,"bug, flying",12,170,185
+litleo,"fire, normal",6,135,74
+pyroar-male,"fire, normal",15,815,177
+flabebe,fairy,1,1,61
+floette,fairy,2,9,130
+florges,fairy,11,100,248
+skiddo,grass,9,310,70
+gogoat,grass,17,910,186
+pancham,fighting,6,80,70
+pangoro,"fighting, dark",21,1360,173
+furfrou,normal,12,280,165
+espurr,psychic,3,35,71
+meowstic-male,psychic,6,85,163
+honedge,"steel, ghost",8,20,65
+doublade,"steel, ghost",8,45,157
+aegislash-shield,"steel, ghost",17,530,234
+spritzee,fairy,2,5,68
+aromatisse,fairy,8,155,162
+swirlix,fairy,4,35,68
+slurpuff,fairy,8,50,168
+inkay,"dark, psychic",4,35,58
+malamar,"dark, psychic",15,470,169
+binacle,"rock, water",5,310,61
+barbaracle,"rock, water",13,960,175
+skrelp,"poison, water",5,73,64
+dragalge,"poison, dragon",18,815,173
+clauncher,water,5,83,66
+clawitzer,water,13,353,100
+helioptile,"electric, normal",5,60,58
+heliolisk,"electric, normal",10,210,168
+tyrunt,"rock, dragon",8,260,72
+tyrantrum,"rock, dragon",25,2700,182
+amaura,"rock, ice",13,252,72
+aurorus,"rock, ice",27,2250,104
+sylveon,fairy,10,235,184
+hawlucha,"fighting, flying",8,215,175
+dedenne,"electric, fairy",2,22,151
+carbink,"rock, fairy",3,57,100
+goomy,dragon,3,28,60
+sliggoo,dragon,8,175,158
+goodra,dragon,20,1505,270
+klefki,"steel, fairy",2,30,165
+phantump,"ghost, grass",4,70,62
+trevenant,"ghost, grass",15,710,166
+pumpkaboo-average,"ghost, grass",4,50,67
+gourgeist-average,"ghost, grass",9,125,173
+bergmite,ice,10,995,61
+avalugg,ice,20,5050,180
+noibat,"flying, dragon",5,80,49
+noivern,"flying, dragon",15,850,187
+xerneas,fairy,30,2150,306
+yveltal,"dark, flying",58,2030,306
+zygarde-50,"dragon, ground",50,3050,270
+diancie,"rock, fairy",7,88,270
+hoopa,"psychic, ghost",5,90,270
+volcanion,"fire, water",17,1950,270
+rowlet,"grass, flying",3,15,64
+dartrix,"grass, flying",7,160,147
+decidueye,"grass, ghost",16,366,239
+litten,fire,4,43,64
+torracat,fire,7,250,147
+incineroar,"fire, dark",18,830,239
+popplio,water,4,75,64
+brionne,water,6,175,147
+primarina,"water, fairy",18,440,239
+pikipek,"normal, flying",3,12,53
+trumbeak,"normal, flying",6,148,124
+toucannon,"normal, flying",11,260,218
+yungoos,normal,4,60,51
+gumshoos,normal,7,142,146
+grubbin,bug,4,44,60
+charjabug,"bug, electric",5,105,140
+vikavolt,"bug, electric",15,450,225
+crabrawler,fighting,6,70,68
+crabominable,"fighting, ice",17,1800,167
+oricorio-baile,"fire, flying",6,34,167
+cutiefly,"bug, fairy",1,2,61
+ribombee,"bug, fairy",2,5,162
+rockruff,rock,5,92,56
+lycanroc-midday,rock,8,250,170
+wishiwashi-solo,water,2,3,61
+mareanie,"poison, water",4,80,61
+toxapex,"poison, water",7,145,173
+mudbray,ground,10,1100,77
+mudsdale,ground,25,9200,175
+dewpider,"water, bug",3,40,54
+araquanid,"water, bug",18,820,159
+fomantis,grass,3,15,50
+lurantis,grass,9,185,168
+morelull,"grass, fairy",2,15,57
+shiinotic,"grass, fairy",10,115,142
+salandit,"poison, fire",6,48,64
+salazzle,"poison, fire",12,222,168
+stufful,"normal, fighting",5,68,68
+bewear,"normal, fighting",21,1350,175
+bounsweet,grass,3,32,42
+steenee,grass,7,82,102
+tsareena,grass,12,214,230
+comfey,fairy,1,3,170
+oranguru,"normal, psychic",15,760,172
+passimian,fighting,20,828,172
+wimpod,"bug, water",5,120,46
+golisopod,"bug, water",20,1080,186
+sandygast,"ghost, ground",5,700,64
+palossand,"ghost, ground",13,2500,168
+pyukumuku,water,3,12,144
+type-null,normal,19,1205,107
+silvally,normal,23,1005,257
+minior-red-meteor,"rock, flying",3,400,154
+komala,normal,4,199,168
+turtonator,"fire, dragon",20,2120,170
+togedemaru,"electric, steel",3,33,152
+mimikyu-disguised,"ghost, fairy",2,7,167
+bruxish,"water, psychic",9,190,166
+drampa,"normal, dragon",30,1850,170
+dhelmise,"ghost, grass",39,2100,181
+jangmo-o,dragon,6,297,60
+hakamo-o,"dragon, fighting",12,470,147
+kommo-o,"dragon, fighting",16,782,270
+tapu-koko,"electric, fairy",18,205,257
+tapu-lele,"psychic, fairy",12,186,257
+tapu-bulu,"grass, fairy",19,455,257
+tapu-fini,"water, fairy",13,212,257
+cosmog,psychic,2,1,40
+cosmoem,psychic,1,9999,140
+solgaleo,"psychic, steel",34,2300,306
+lunala,"psychic, ghost",40,1200,306
+nihilego,"rock, poison",12,555,257
+buzzwole,"bug, fighting",24,3336,257
+pheromosa,"bug, fighting",18,250,257
+xurkitree,electric,38,1000,257
+celesteela,"steel, flying",92,9999,257
+kartana,"grass, steel",3,1,257
+guzzlord,"dark, dragon",55,8880,257
+necrozma,psychic,24,2300,270
+magearna,"steel, fairy",10,805,270
+marshadow,"fighting, ghost",7,222,270
+poipole,poison,6,18,189
+naganadel,"poison, dragon",36,1500,243
+stakataka,"rock, steel",55,8200,257
+blacephalon,"fire, ghost",18,130,257
+zeraora,electric,15,445,270
+meltan,steel,2,80,135
+melmetal,steel,25,8000,270
+grookey,grass,3,50,62
+thwackey,grass,7,140,147
+rillaboom,grass,21,900,265
+scorbunny,fire,3,45,62
+raboot,fire,6,90,147
+cinderace,fire,14,330,265
+sobble,water,3,40,62
+drizzile,water,7,115,147
+inteleon,water,19,452,265
+skwovet,normal,3,25,55
+greedent,normal,6,60,161
+rookidee,flying,2,18,49
+corvisquire,flying,8,160,128
+corviknight,"flying, steel",22,750,248
+blipbug,bug,4,80,36
+dottler,"bug, psychic",4,195,117
+orbeetle,"bug, psychic",4,408,253
+nickit,dark,6,89,49
+thievul,dark,12,199,159
+gossifleur,grass,4,22,50
+eldegoss,grass,5,25,161
+wooloo,normal,6,60,122
+dubwool,normal,13,430,172
+chewtle,water,3,85,57
+drednaw,"water, rock",10,1155,170
+yamper,electric,3,135,54
+boltund,electric,10,340,172
+rolycoly,rock,3,120,48
+carkol,"rock, fire",11,780,144
+coalossal,"rock, fire",28,3105,255
+applin,"grass, dragon",2,5,52
+flapple,"grass, dragon",3,10,170
+appletun,"grass, dragon",4,130,170
+silicobra,ground,22,76,63
+sandaconda,ground,38,655,179
+cramorant,"flying, water",8,180,166
+arrokuda,water,5,10,56
+barraskewda,water,13,300,172
+toxel,"electric, poison",4,110,48
+toxtricity-amped,"electric, poison",16,400,176
+sizzlipede,"fire, bug",7,10,61
+centiskorch,"fire, bug",30,1200,184
+clobbopus,fighting,6,40,62
+grapploct,fighting,16,390,168
+sinistea,ghost,1,2,62
+polteageist,ghost,2,4,178
+hatenna,psychic,4,34,53
+hattrem,psychic,6,48,130
+hatterene,"psychic, fairy",21,51,255
+impidimp,"dark, fairy",4,55,53
+morgrem,"dark, fairy",8,125,130
+grimmsnarl,"dark, fairy",15,610,255
+obstagoon,"dark, normal",16,460,260
+perrserker,steel,8,280,154
+cursola,ghost,10,4,179
+sirfetchd,fighting,8,1170,177
+mr-rime,"ice, psychic",15,582,182
+runerigus,"ground, ghost",16,666,169
+milcery,fairy,2,3,54
+alcremie,fairy,3,5,173
+falinks,fighting,30,620,165
+pincurchin,electric,3,10,152
+snom,"ice, bug",3,38,37
+frosmoth,"ice, bug",13,420,166
+stonjourner,rock,25,5200,165
+eiscue-ice,ice,14,890,165
+indeedee-male,"psychic, normal",9,280,166
+morpeko-full-belly,"electric, dark",3,30,153
+cufant,steel,12,1000,66
+copperajah,steel,30,6500,175
+dracozolt,"electric, dragon",18,1900,177
+arctozolt,"electric, ice",23,1500,177
+dracovish,"water, dragon",23,2150,177
+arctovish,"water, ice",20,1750,177
+duraludon,"steel, dragon",18,400,187
+dreepy,"dragon, ghost",5,20,54
+drakloak,"dragon, ghost",14,110,144
+dragapult,"dragon, ghost",30,500,300
+zacian,fairy,28,1100,335
+zamazenta,fighting,29,2100,335
+eternatus,"poison, dragon",200,9500,345
+kubfu,fighting,6,120,77
+urshifu-single-strike,"fighting, dark",19,1050,275
+zarude,"dark, grass",18,700,300
+regieleki,electric,12,1450,290
+regidrago,dragon,21,2000,290
+glastrier,ice,22,8000,290
+spectrier,ghost,20,445,290
+calyrex,"psychic, grass",11,77,250
+wyrdeer,"normal, psychic",18,951,263
+kleavor,"bug, rock",18,890,175
+ursaluna,"ground, normal",24,2900,275
+basculegion-male,"water, ghost",30,1100,265
+sneasler,"fighting, poison",13,430,102
+overqwil,"dark, poison",25,605,179
+enamorus-incarnate,"fairy, flying",16,480,116
+sprigatito,grass,4,41,62
+floragato,grass,9,122,144
+meowscarada,"grass, dark",15,312,265
+fuecoco,fire,4,98,62
+crocalor,fire,10,307,144
+skeledirge,"fire, ghost",16,3265,265
+quaxly,water,5,61,62
+quaxwell,water,12,215,144
+quaquaval,"water, fighting",18,619,265
+lechonk,normal,5,102,51
+oinkologne-male,normal,10,1200,171
+tarountula,bug,3,40,42
+spidops,bug,10,165,141
+nymble,bug,2,10,42
+lokix,"bug, dark",10,175,158
+pawmi,electric,3,25,48
+pawmo,"electric, fighting",4,65,123
+pawmot,"electric, fighting",9,410,245
+tandemaus,normal,3,18,61
+maushold-family-of-four,normal,3,23,165
+fidough,fairy,3,109,62
+dachsbun,fairy,5,149,167
+smoliv,"grass, normal",3,65,52
+dolliv,"grass, normal",6,119,124
+arboliva,"grass, normal",14,482,255
+squawkabilly-green-plumage,"normal, flying",6,24,146
+nacli,rock,4,160,56
+naclstack,rock,6,1050,124
+garganacl,rock,23,2400,250
+charcadet,fire,6,105,51
+armarouge,"fire, psychic",15,850,263
+ceruledge,"fire, ghost",16,620,263
+tadbulb,electric,3,4,54
+bellibolt,electric,12,1130,173
+wattrel,"electric, flying",4,36,56
+kilowattrel,"electric, flying",14,386,172
+maschiff,dark,5,160,68
+mabosstiff,dark,11,610,177
+shroodle,"poison, normal",2,7,58
+grafaiai,"poison, normal",7,272,170
+bramblin,"grass, ghost",6,6,55
+brambleghast,"grass, ghost",12,60,168
+toedscool,"ground, grass",9,330,67
+toedscruel,"ground, grass",19,580,180
+klawf,rock,13,790,158
+capsakid,grass,3,30,61
+scovillain,"grass, fire",9,150,170
+rellor,bug,2,10,54
+rabsca,"bug, psychic",3,35,165
+flittle,psychic,2,15,51
+espathra,psychic,19,900,168
+tinkatink,"fairy, steel",4,89,59
+tinkatuff,"fairy, steel",7,591,133
+tinkaton,"fairy, steel",7,1128,253
+wiglett,water,12,18,49
+wugtrio,water,12,54,149
+bombirdier,"flying, dark",15,429,243
+finizen,water,13,602,63
+palafin-zero,water,13,602,160
+varoom,"steel, poison",10,350,60
+revavroom,"steel, poison",18,1200,175
+cyclizar,"dragon, normal",16,630,175
+orthworm,steel,25,3100,240
+glimmet,"rock, poison",7,80,70
+glimmora,"rock, poison",15,450,184
+greavard,ghost,6,350,58
+houndstone,ghost,20,150,171
+flamigo,"flying, fighting",16,370,175
+cetoddle,ice,12,450,67
+cetitan,ice,45,7000,182
+veluza,"water, psychic",25,900,167
+dondozo,water,120,2200,265
+tatsugiri-curly,"dragon, water",3,80,166
+annihilape,"fighting, ghost",12,560,268
+clodsire,"poison, ground",18,2230,151
+farigiraf,"normal, psychic",32,1600,260
+dudunsparce-two-segment,normal,36,392,182
+kingambit,"dark, steel",20,1200,275
+great-tusk,"ground, fighting",22,3200,285
+scream-tail,"fairy, psychic",12,80,285
+brute-bonnet,"grass, dark",12,210,285
+flutter-mane,"ghost, fairy",14,40,285
+slither-wing,"bug, fighting",32,920,285
+sandy-shocks,"electric, ground",23,600,285
+iron-treads,"ground, steel",9,2400,285
+iron-bundle,"ice, water",6,110,285
+iron-hands,"fighting, electric",18,3807,285
+iron-jugulis,"dark, flying",13,1110,285
+iron-moth,"fire, poison",12,360,285
+iron-thorns,"rock, electric",16,3030,285
+frigibax,"dragon, ice",5,170,64
+arctibax,"dragon, ice",8,300,148
+baxcalibur,"dragon, ice",21,2100,300
+gimmighoul,ghost,3,50,60
+gholdengo,"steel, ghost",12,300,275
+wo-chien,"dark, grass",15,742,285
+chien-pao,"dark, ice",19,1522,285
+ting-lu,"dark, ground",27,6997,285
+chi-yu,"dark, fire",4,49,285
+roaring-moon,"dragon, dark",20,3800,295
+iron-valiant,"fairy, fighting",14,350,295
+koraidon,"fighting, dragon",25,3030,335
+miraidon,"electric, dragon",35,2400,335
+walking-wake,"water, dragon",35,2800,295
+iron-leaves,"grass, psychic",15,1250,295
+dipplin,"grass, dragon",4,97,170
+poltchageist,"grass, ghost",1,11,62
+sinistcha,"grass, ghost",2,22,178
+okidogi,"poison, fighting",18,922,278
+munkidori,"poison, psychic",10,122,278
+fezandipiti,"poison, fairy",14,301,278
+ogerpon,grass,12,398,275
+archaludon,"steel, dragon",20,600,300
+hydrapple,"grass, dragon",18,930,270
+gouging-fire,"fire, dragon",35,5900,295
+raging-bolt,"electric, dragon",52,4800,295
+iron-boulder,"rock, psychic",15,1625,295
+iron-crown,"steel, psychic",16,1560,295
+terapagos,normal,2,65,90
+pecharunt,"poison, ghost",3,3,300
+deoxys-attack,psychic,17,608,270
+deoxys-defense,psychic,17,608,270
+deoxys-speed,psychic,17,608,270
+wormadam-sandy,"bug, ground",5,65,148
+wormadam-trash,"bug, steel",5,65,148
+shaymin-sky,"grass, flying",4,52,270
+giratina-origin,"ghost, dragon",69,6500,340
+rotom-heat,"electric, fire",3,3,182
+rotom-wash,"electric, water",3,3,182
+rotom-frost,"electric, ice",3,3,182
+rotom-fan,"electric, flying",3,3,182
+rotom-mow,"electric, grass",3,3,182
+castform-sunny,fire,3,8,147
+castform-rainy,water,3,8,147
+castform-snowy,ice,3,8,147
+basculin-blue-striped,water,10,180,161
+darmanitan-zen,"fire, psychic",13,929,189
+meloetta-pirouette,"normal, fighting",6,65,270
+tornadus-therian,flying,14,630,290
+thundurus-therian,"electric, flying",30,610,290
+landorus-therian,"ground, flying",13,680,300
+kyurem-black,"dragon, ice",33,3250,350
+kyurem-white,"dragon, ice",36,3250,350
+keldeo-resolute,"water, fighting",14,485,290
+meowstic-female,psychic,6,85,163
+aegislash-blade,"steel, ghost",17,530,250
+pumpkaboo-small,"ghost, grass",3,35,67
+pumpkaboo-large,"ghost, grass",5,75,67
+pumpkaboo-super,"ghost, grass",8,150,67
+gourgeist-small,"ghost, grass",7,95,173
+gourgeist-large,"ghost, grass",11,140,173
+gourgeist-super,"ghost, grass",17,390,173
+venusaur-mega,"grass, poison",24,1555,281
+charizard-mega-x,"fire, dragon",17,1105,285
+charizard-mega-y,"fire, flying",17,1005,285
+blastoise-mega,water,16,1011,284
+alakazam-mega,psychic,12,480,270
+gengar-mega,"ghost, poison",14,405,270
+kangaskhan-mega,normal,22,1000,207
+pinsir-mega,"bug, flying",17,590,210
+gyarados-mega,"water, dark",65,3050,224
+aerodactyl-mega,"rock, flying",21,790,215
+mewtwo-mega-x,"psychic, fighting",23,1270,351
+mewtwo-mega-y,psychic,15,330,351
+ampharos-mega,"electric, dragon",14,615,275
+scizor-mega,"bug, steel",20,1250,210
+heracross-mega,"bug, fighting",17,625,210
+houndoom-mega,"dark, fire",19,495,210
+tyranitar-mega,"rock, dark",25,2550,315
+blaziken-mega,"fire, fighting",19,520,284
+gardevoir-mega,"psychic, fairy",16,484,278
+mawile-mega,"steel, fairy",10,235,168
+aggron-mega,steel,22,3950,284
+medicham-mega,"fighting, psychic",13,315,179
+manectric-mega,electric,18,440,201
+banette-mega,ghost,12,130,194
+absol-mega,dark,12,490,198
+garchomp-mega,"dragon, ground",19,950,315
+lucario-mega,"fighting, steel",13,575,219
+abomasnow-mega,"grass, ice",27,1850,208
+floette-eternal,fairy,2,9,243
+latias-mega,"dragon, psychic",18,520,315
+latios-mega,"dragon, psychic",23,700,315
+swampert-mega,"water, ground",19,1020,286
+sceptile-mega,"grass, dragon",19,552,284
+sableye-mega,"dark, ghost",5,1610,168
+altaria-mega,"dragon, fairy",15,206,207
+gallade-mega,"psychic, fighting",16,564,278
+audino-mega,"normal, fairy",15,320,425
+sharpedo-mega,"water, dark",25,1303,196
+slowbro-mega,"water, psychic",20,1200,207
+steelix-mega,"steel, ground",105,7400,214
+pidgeot-mega,"normal, flying",22,505,261
+glalie-mega,ice,21,3502,203
+diancie-mega,"rock, fairy",11,278,315
+metagross-mega,"steel, psychic",25,9429,315
+kyogre-primal,water,98,4300,347
+groudon-primal,"ground, fire",50,9997,347
+rayquaza-mega,"dragon, flying",108,3920,351
+pikachu-rock-star,electric,4,60,112
+pikachu-belle,electric,4,60,112
+pikachu-pop-star,electric,4,60,112
+pikachu-phd,electric,4,60,112
+pikachu-libre,electric,4,60,112
+pikachu-cosplay,electric,4,60,112
+hoopa-unbound,"psychic, dark",65,4900,306
+camerupt-mega,"fire, ground",25,3205,196
+lopunny-mega,"normal, fighting",13,283,203
+salamence-mega,"dragon, flying",18,1126,315
+beedrill-mega,"bug, poison",14,405,223
+rattata-alola,"dark, normal",3,38,51
+raticate-alola,"dark, normal",7,255,145
+raticate-totem-alola,"dark, normal",14,1050,145
+pikachu-original-cap,electric,4,60,112
+pikachu-hoenn-cap,electric,4,60,112
+pikachu-sinnoh-cap,electric,4,60,112
+pikachu-unova-cap,electric,4,60,112
+pikachu-kalos-cap,electric,4,60,112
+pikachu-alola-cap,electric,4,60,112
+raichu-alola,"electric, psychic",7,210,243
+sandshrew-alola,"ice, steel",7,400,60
+sandslash-alola,"ice, steel",12,550,158
+vulpix-alola,ice,6,99,60
+ninetales-alola,"ice, fairy",11,199,177
+diglett-alola,"ground, steel",2,10,53
+dugtrio-alola,"ground, steel",7,666,149
+meowth-alola,dark,4,42,58
+persian-alola,dark,11,330,154
+geodude-alola,"rock, electric",4,203,60
+graveler-alola,"rock, electric",10,1100,137
+golem-alola,"rock, electric",17,3160,223
+grimer-alola,"poison, dark",7,420,65
+muk-alola,"poison, dark",10,520,175
+exeggutor-alola,"grass, dragon",109,4156,186
+marowak-alola,"fire, ghost",10,340,149
+greninja-battle-bond,"water, dark",15,400,239
+greninja-ash,"water, dark",15,400,288
+zygarde-10-power-construct,"dragon, ground",12,335,243
+zygarde-50-power-construct,"dragon, ground",50,3050,300
+zygarde-complete,"dragon, ground",45,6100,354
+gumshoos-totem,normal,14,600,146
+vikavolt-totem,"bug, electric",26,1475,225
+oricorio-pom-pom,"electric, flying",6,34,167
+oricorio-pau,"psychic, flying",6,34,167
+oricorio-sensu,"ghost, flying",6,34,167
+lycanroc-midnight,rock,11,250,170
+wishiwashi-school,water,82,786,217
+lurantis-totem,grass,15,580,168
+salazzle-totem,"poison, fire",21,810,168
+minior-orange-meteor,"rock, flying",3,400,154
+minior-yellow-meteor,"rock, flying",3,400,154
+minior-green-meteor,"rock, flying",3,400,154
+minior-blue-meteor,"rock, flying",3,400,154
+minior-indigo-meteor,"rock, flying",3,400,154
+minior-violet-meteor,"rock, flying",3,400,154
+minior-red,"rock, flying",3,3,175
+minior-orange,"rock, flying",3,3,175
+minior-yellow,"rock, flying",3,3,175
+minior-green,"rock, flying",3,3,175
+minior-blue,"rock, flying",3,3,175
+minior-indigo,"rock, flying",3,3,175
+minior-violet,"rock, flying",3,3,175
+mimikyu-busted,"ghost, fairy",2,7,167
+mimikyu-totem-disguised,"ghost, fairy",4,28,167
+mimikyu-totem-busted,"ghost, fairy",4,28,167
+kommo-o-totem,"dragon, fighting",24,2075,270
+magearna-original,"steel, fairy",10,805,300
+pikachu-partner-cap,electric,4,60,112
+marowak-totem,"fire, ghost",17,980,149
+ribombee-totem,"bug, fairy",4,20,162
+rockruff-own-tempo,rock,5,92,56
+lycanroc-dusk,rock,8,250,170
+araquanid-totem,"water, bug",31,2175,159
+togedemaru-totem,"electric, steel",6,130,152
+necrozma-dusk,"psychic, steel",38,4600,340
+necrozma-dawn,"psychic, ghost",42,3500,340
+necrozma-ultra,"psychic, dragon",75,2300,339
+pikachu-starter,electric,4,60,86
+eevee-starter,normal,3,65,87
+pikachu-world-cap,electric,4,60,112
+meowth-galar,steel,4,75,58
+ponyta-galar,psychic,8,240,82
+rapidash-galar,"psychic, fairy",17,800,175
+slowpoke-galar,psychic,12,360,63
+slowbro-galar,"poison, psychic",16,705,172
+farfetchd-galar,fighting,8,420,132
+weezing-galar,"poison, fairy",30,160,172
+mr-mime-galar,"ice, psychic",14,568,161
+articuno-galar,"psychic, flying",17,509,290
+zapdos-galar,"fighting, flying",16,582,290
+moltres-galar,"dark, flying",20,660,290
+slowking-galar,"poison, psychic",18,795,172
+corsola-galar,ghost,6,5,144
+zigzagoon-galar,"dark, normal",4,175,56
+linoone-galar,"dark, normal",5,325,147
+darumaka-galar,ice,7,400,63
+darmanitan-galar-standard,ice,17,1200,168
+darmanitan-galar-zen,"ice, fire",17,1200,189
+yamask-galar,"ground, ghost",5,15,61
+stunfisk-galar,"ground, steel",7,205,165
+zygarde-10,"dragon, ground",12,335,243
+cramorant-gulping,"flying, water",8,180,166
+cramorant-gorging,"flying, water",8,180,166
+toxtricity-low-key,"electric, poison",16,400,176
+eiscue-noice,ice,14,890,165
+indeedee-female,"psychic, normal",9,280,166
+morpeko-hangry,"electric, dark",3,30,153
+zacian-crowned,"fairy, steel",28,3550,360
+zamazenta-crowned,"fighting, steel",29,7850,360
+eternatus-eternamax,"poison, dragon",1000,0,563
+urshifu-rapid-strike,"fighting, water",19,1050,275
+zarude-dada,"dark, grass",18,700,300
+calyrex-ice,"psychic, ice",24,8091,340
+calyrex-shadow,"psychic, ghost",24,536,340
+venusaur-gmax,"grass, poison",240,10000,236
+charizard-gmax,"fire, flying",280,10000,240
+blastoise-gmax,water,250,10000,239
+butterfree-gmax,"bug, flying",170,10000,178
+pikachu-gmax,electric,210,10000,112
+meowth-gmax,normal,330,10000,58
+machamp-gmax,fighting,250,10000,227
+gengar-gmax,"ghost, poison",200,10000,225
+kingler-gmax,water,190,10000,166
+lapras-gmax,"water, ice",240,10000,187
+eevee-gmax,normal,180,10000,65
+snorlax-gmax,normal,350,10000,189
+garbodor-gmax,poison,210,10000,166
+melmetal-gmax,steel,250,10000,270
+rillaboom-gmax,grass,280,10000,265
+cinderace-gmax,fire,270,10000,265
+inteleon-gmax,water,400,10000,265
+corviknight-gmax,"flying, steel",140,10000,248
+orbeetle-gmax,"bug, psychic",140,10000,253
+drednaw-gmax,"water, rock",240,10000,170
+coalossal-gmax,"rock, fire",420,10000,255
+flapple-gmax,"grass, dragon",240,10000,170
+appletun-gmax,"grass, dragon",240,10000,170
+sandaconda-gmax,ground,220,10000,179
+toxtricity-amped-gmax,"electric, poison",240,10000,176
+centiskorch-gmax,"fire, bug",750,10000,184
+hatterene-gmax,"psychic, fairy",260,10000,255
+grimmsnarl-gmax,"dark, fairy",320,10000,255
+alcremie-gmax,fairy,300,10000,173
+copperajah-gmax,steel,230,10000,175
+duraludon-gmax,"steel, dragon",430,10000,187
+urshifu-single-strike-gmax,"fighting, dark",290,10000,275
+urshifu-rapid-strike-gmax,"fighting, water",260,10000,275
+toxtricity-low-key-gmax,"electric, poison",240,10000,176
+growlithe-hisui,"fire, rock",8,227,70
+arcanine-hisui,"fire, rock",20,1680,194
+voltorb-hisui,"electric, grass",5,130,66
+electrode-hisui,"electric, grass",12,710,172
+typhlosion-hisui,"fire, ghost",16,698,240
+qwilfish-hisui,"dark, poison",5,39,88
+sneasel-hisui,"fighting, poison",9,270,86
+samurott-hisui,"water, dark",15,582,238
+lilligant-hisui,"grass, fighting",12,192,168
+zorua-hisui,"normal, ghost",7,125,66
+zoroark-hisui,"normal, ghost",16,730,179
+braviary-hisui,"psychic, flying",17,434,179
+sliggoo-hisui,"steel, dragon",7,685,158
+goodra-hisui,"steel, dragon",17,3341,270
+avalugg-hisui,"ice, rock",14,2624,180
+decidueye-hisui,"grass, fighting",16,370,239
+dialga-origin,"steel, dragon",70,8487,306
+palkia-origin,"water, dragon",63,6590,306
+basculin-white-striped,water,10,180,161
+basculegion-female,"water, ghost",30,1100,265
+enamorus-therian,"fairy, flying",16,480,116
+tauros-paldea-combat-breed,fighting,14,1150,172
+tauros-paldea-blaze-breed,"fighting, fire",14,850,172
+tauros-paldea-aqua-breed,"fighting, water",14,1100,172
+wooper-paldea,"poison, ground",4,110,42
+oinkologne-female,normal,10,1200,171
+dudunsparce-three-segment,normal,45,474,182
+palafin-hero,water,18,974,160
+maushold-family-of-three,normal,3,28,165
+tatsugiri-droopy,"dragon, water",3,80,166
+tatsugiri-stretchy,"dragon, water",3,80,166
+squawkabilly-blue-plumage,"normal, flying",6,24,146
+squawkabilly-yellow-plumage,"normal, flying",6,24,146
+squawkabilly-white-plumage,"normal, flying",6,24,146
+gimmighoul-roaming,ghost,1,10,60
+koraidon-limited-build,"fighting, dragon",35,3030,335
+koraidon-sprinting-build,"fighting, dragon",35,3030,335
+koraidon-swimming-build,"fighting, dragon",35,3030,335
+koraidon-gliding-build,"fighting, dragon",35,3030,335
+miraidon-low-power-mode,"electric, dragon",28,2400,335
+miraidon-drive-mode,"electric, dragon",28,2400,335
+miraidon-aquatic-mode,"electric, dragon",28,2400,335
+miraidon-glide-mode,"electric, dragon",28,2400,335
+ursaluna-bloodmoon,"ground, normal",24,2900,275
+ogerpon-wellspring-mask,"grass, water",12,398,275
+ogerpon-hearthflame-mask,"grass, fire",12,398,275
+ogerpon-cornerstone-mask,"grass, rock",12,398,275
+terapagos-terastal,normal,3,160,90
+terapagos-stellar,normal,17,770,90
+clefable-mega,"fairy, flying",17,423,
+victreebel-mega,"grass, poison",45,1255,
+starmie-mega,"water, psychic",23,800,
+dragonite-mega,"dragon, flying",22,2900,
+meganium-mega,"grass, fairy",24,2010,
+feraligatr-mega,"water, dragon",23,1088,
+skarmory-mega,"steel, flying",17,404,
+froslass-mega,"ice, ghost",26,296,
+emboar-mega,"fire, fighting",18,1803,
+excadrill-mega,"ground, steel",9,600,
+scolipede-mega,"bug, poison",32,2305,
+scrafty-mega,"dark, fighting",11,310,
+eelektross-mega,electric,30,1800,
+chandelure-mega,"ghost, fire",25,696,
+chesnaught-mega,"grass, fighting",16,900,
+delphox-mega,"fire, psychic",15,390,
+greninja-mega,"water, dark",15,400,
+pyroar-mega,"fire, normal",15,933,
+floette-mega,fairy,2,1008,
+malamar-mega,"dark, psychic",29,698,
+barbaracle-mega,"rock, fighting",22,1000,
+dragalge-mega,"poison, dragon",21,1003,
+hawlucha-mega,"fighting, flying",10,250,
+zygarde-mega,"dragon, ground",77,6100,
+drampa-mega,"normal, dragon",30,2405,
+falinks-mega,fighting,16,990,
+raichu-mega-x,electric,12,380,
+raichu-mega-y,electric,10,260,
+chimecho-mega,"psychic, steel",12,80,
+absol-mega-z,"dark, ghost",12,490,
+staraptor-mega,"fighting, flying",19,500,
+garchomp-mega-z,dragon,19,990,
+lucario-mega-z,"fighting, steel",13,494,
+heatran-mega,"fire, steel",28,5700,
+darkrai-mega,dark,30,2400,
+golurk-mega,"ground, ghost",40,3300,
+meowstic-mega,psychic,8,101,
+crabominable-mega,"fighting, ice",26,2528,
+golisopod-mega,"bug, steel",23,1480,
+magearna-mega,"steel, fairy",13,2481,
+magearna-original-mega,"steel, fairy",13,2481,
+zeraora-mega,electric,15,445,
+scovillain-mega,"grass, fire",12,220,
+glimmora-mega,"rock, poison",28,770,
+tatsugiri-curly-mega,"dragon, water",6,240,
+tatsugiri-droopy-mega,"dragon, water",6,240,
+tatsugiri-stretchy-mega,"dragon, water",6,240,
+baxcalibur-mega,"dragon, ice",21,3150,
