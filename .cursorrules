@@ -6,6 +6,7 @@ Keep this structure section current whenever files or folders are added, renamed
 
 ```text
 hcde530/
+├── .gitignore
 ├── .cursor/
 │   └── rules/
 │       ├── project-standards.mdc
@@ -29,6 +30,19 @@ hcde530/
 │   ├── week4_category_helpful_votes.csv
 │   ├── week4_pokeapi.py
 │   └── week4_pokemon_data.csv
+├── HCDE530_week5_project/
+│   ├── app_info.csv
+│   ├── app_reviews_demo.csv
+│   ├── reviews_mini.csv
+│   ├── week5.md
+│   ├── week5_merge_demo.ipynb
+│   └── week5_pandas_demo.ipynb
+├── miniProject1/
+│   ├── a5_mp1_reviews.py
+│   ├── data/
+│   ├── fetch_mp1_review_data.py
+│   ├── requirements.txt
+│   └── week5.md
 └── README.md
 ```
 

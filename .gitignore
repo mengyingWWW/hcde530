@@ -1,0 +1,6 @@
+# Local Python virtual environments
+.venv/
+**/.venv/
+
+# Jupyter / editor migration marker (not coursework)
+**/.jupyter/migrated
