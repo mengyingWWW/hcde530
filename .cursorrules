@@ -39,10 +39,17 @@ hcde530/
 │   └── week5_pandas_demo.ipynb
 ├── miniProject1/
 │   ├── a5_mp1_reviews.py
+│   ├── a6_mp1_charts.ipynb
+│   ├── a6_mp1_charts.py
+│   ├── charts/
+│   │   ├── chart_q1_low_star_share_by_app.png
+│   │   ├── chart_q2_mean_rating_by_recency_decile.png
+│   │   └── chart_q3_keyword_themes_1_vs_5_star.png
 │   ├── data/
 │   ├── fetch_mp1_review_data.py
 │   ├── requirements.txt
-│   └── week5.md
+│   ├── week5.md
+│   └── week6.md
 └── README.md
 ```
 

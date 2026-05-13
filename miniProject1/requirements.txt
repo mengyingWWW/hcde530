@@ -1,4 +1,6 @@
 google-play-scraper==1.2.7
+kaleido>=0.2.1
 pandas>=2.2.0
+plotly>=5.18.0
 requests>=2.31.0
 urllib3>=2.2.0
