@@ -37,6 +37,8 @@ hcde530/
 │   ├── week5.md
 │   ├── week5_merge_demo.ipynb
 │   └── week5_pandas_demo.ipynb
+├── HCDE530_week7_project/
+│   └── week7_figma_feedback.csv
 ├── miniProject1/
 │   ├── a5_mp1_reviews.py
 │   ├── a6_mp1_charts.ipynb
@@ -47,6 +49,9 @@ hcde530/
 │   │   └── chart_q3_keyword_themes_1_vs_5_star.png
 │   ├── data/
 │   ├── fetch_mp1_review_data.py
+│   ├── mp1.ipynb
+│   ├── mp1.md
+│   ├── README.md
 │   ├── requirements.txt
 │   ├── week5.md
 │   └── week6.md
